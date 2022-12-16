@@ -24,7 +24,7 @@ local Idk = X.New({
 	Title = "2"
 })
 
-local A = Y.Button({
+local A = Main.Button({
 	Text = "Kill All",
 	Callback = function()
 		print("hello")
@@ -46,7 +46,7 @@ local B = Y.Toggle({
 	Enabled = false
 })
 
-local C = Y.Slider({
+local C = Main.Slider({
 	Text = "Walkspeed",
 	Callback = function(Value)
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
