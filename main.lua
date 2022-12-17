@@ -1,8 +1,4 @@
-local yes = Instance.new("Message")
-yes.Text = "join the discord : .gg/HbVUmYxves"
-yes.Parent = game.Workspace
-wait(0.5)
-game.Workspace.Message:Destroy()
+
 
 if game.PlaceId == 5670218884 then
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
