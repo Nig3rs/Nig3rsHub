@@ -1,5 +1,3 @@
-
-
 if game.PlaceId == 5670218884 then
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
