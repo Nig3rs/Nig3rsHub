@@ -1,9 +1,10 @@
 local disc = Instance.new("Hint")
 disc.Name = "discinvite"
 disc.Text = " disc invite : .gg/HbVUmYxves "
+disc.Parent = game.Workspace
 
-	if game.PlaceId == 5670218884 then
-		local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+if game.PlaceId == 5670218884 then
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local X = Material.Load({
 	Title = "Nig3rsHub - Item Asylum",
